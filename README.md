@@ -7,7 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This only requires numpy to run. To install open terminal/command line and type the following commands.
+This only requires numpy to run. If you want to visualise aspects of the algorithm (such as superposition collapse probabilities) you will need matplotlib too. To install open terminal/command line and type the following commands.
 
 ```
 pip install numpy
@@ -18,25 +18,20 @@ pip install matplotlib
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
+### Running Grovers Algorithm
 
-Explain what these tests test and why
+This creates 16-dimensional computational basis and attempts to find x from the basis.
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+It returns result and state, where result is the index of the found state in register 1 and state is the found state.
 
 ```
-Give an example
+n = 16 # Number of vectors in computational basis
+x = 3  # The value you want to find (should be in the computational basis)
+register1 = computational_basis(n)
+register2 = [register1[x]]
+
+result, state = grovers(register1, register2)
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Authors
 
