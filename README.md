@@ -1,9 +1,9 @@
 # Grovers-Algorithm
-A simulation of Grover's quantum algorithm for a classical computer.
+A simulation of Grover's quantum search algorithm for a classical computer.
 
 ## Getting Started
 
-These instructions explain how to get a classical simulation of Grovers Quantum algorithm running on your local machine.
+These instructions explain how to get a classical simulation of Grovers quantum search algorithm running on your local machine.
 
 ### Prerequisites
 
