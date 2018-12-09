@@ -3,7 +3,7 @@ A simulation of Grover's quantum algorithm for a classical computer.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions explain how to get a classical simulation of Grovers Quantum algorithm running on your local machine.
 
 ### Prerequisites
 
@@ -14,13 +14,11 @@ pip install numpy
 pip install matplotlib
 ```
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
 ### Running Grovers Algorithm
 
-This creates 16-dimensional computational basis and attempts to find x from the basis.
+Run grovers.py to run the algorithm. The Jupyter notebook contains detailed mathematical explanations.
+
+Running grovers.py like below creates 16-dimensional computational basis and attempts to find x from the basis.
 
 It returns result and state, where result is the index of the found state in register 1 and state is the found state.
 
@@ -39,7 +37,7 @@ result, state = grovers(register1, register2)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
