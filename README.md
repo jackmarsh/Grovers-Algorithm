@@ -1,6 +1,10 @@
 # Grovers-Algorithm
 A simulation of Grover's quantum search algorithm for a classical computer.
 
+## Abstract
+
+Quantum algorithms are proving important to many fields as they repeatedly display, often expo- nential, speed up over their classical counterparts. In this paper, we discuss Grover’s algorithm which provides quadratic speed up over its classical alternative of searching for an element in an unstruc- tured database. It provides the mathematical grounding necessary to understand the algorithm while touching on the proof for the quadratic speed up in time complexity. With the main limitations of quantum algorithms coming from hardware specific decoherence problems, this paper hopes to generate excitement about the future prospects of this young yet growing area of Computer Science. There is no question that this algorithm will be instrumental in changing the future world.
+
 ## Getting Started
 
 These instructions explain how to get a classical simulation of Grovers quantum search algorithm running on your local machine.
